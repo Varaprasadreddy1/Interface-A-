@@ -1,0 +1,14 @@
+interface A {
+
+void m1();
+}
+
+class B implements A {
+public void m1() { }
+void m2() { }
+public static void main(String[] args) {
+B b1 = new B();
+b1.m1();
+b1.m2();
+}
+}
